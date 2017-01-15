@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.8;
+
+}
+
+h1,h2,h3,p{ font-family: 'Raleway', sans-serif;
+font-size: 2em;
+
+}
+
+
+header{background-color: #fff;
+border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.05);
+color: #484848;
+font-size: 1.25em;
+height: 4.5em;
+left: 0;
+line-height: 4.4em;
+text-transform: uppercase;
+top: 0;
+width: 100%;
+position: fixed;}
+
+  .brand-name{color: #484848;
+font-weight: 400;
+height: inherit;
+left: 1.25em;
+line-height: inherit;
+margin-left:1em;
+padding: 0;
+top: 0;}
+
+.brand-name{font-size: 100%;}
+
+nav {
+    height: inherit;
+    line-height: inherit;
+    position: absolute;
+    right: 1.25em;
+    top: 0;
+    vertical-align: middle;
+}
+
+ nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+}
+ul {
+    list-style: disc;
+    margin: 0 0 2em 0;
+    padding-left: 1em;
+    list-style: none;
+}
+nav ul li {
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 2.5em;
+    padding-left: 0;
+  }
+
+  ul li {
+    margin-right: 0.6em;}
+
+  a{
+    color: #666;
+    display: inline-block;
+    text-decoration: none;
+    margin-top:1.8em;}
+
+.intro{background-image:url(../img/hero.jpg);
+  background-size:cover;
+margin: auto;
+width: 100%;
+height: 100vh;
+margin-top: em;}
+
+.intro h1{color: white;
+font-weight: 500;
+line-height: 1em;
+margin: auto;
+padding-top: 30%;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+.intro p{ color: white;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 3%;
+
+}
+
+section{width: 100%;
+margin: auto;
+}
+
+.banner-image{width:95%;
+  text-align: center;
+margin: auto;
+margin-top: 5em;
+height: auto;
+background-size: cover;}
+
+img{
+  display: block;
+  margin: 1em auto;
+  padding: 0;
+  max-width: 100%;
+
+}
+
+
+article{height: auto;
+  margin: auto;
+  margin-top: 2em;
+width: 82%;}
+
+article p{font-size: 1em;
+line-height: 1.6em;
+margin-bottom: 2em;
+}
+hr{margin-top: 1em;
+margin-bottom: 2em;
+}
+
+.imgtxt{float: left;
+  margin: auto;
+  margin-bottom: 4em;
+width: 100%;
+background-color: #f4f4f4;
+background-image:url(../img/geometry2.png);
+background-repeat:repeat;
+}
+
+
+.left{ float: left;
+  background-color:;
+margin-left: 9%;
+margin-top: 1em;}
+
+.right{ float: left;
+  width: 35%;
+background-color:;
+margin-left: 5%;
+margin-top: 1em;}
+
+.quote{ background-image:url(../img/quote.jpg);
+max-width:82%;
+  height:350px;
+  margin-bottom: 3em;
+}
+
+blockquote{
+  position: absolute;
+  max-width: 70%;
+margin-top:7%;
+  font-size: 1.75em;
+  margin-left:6%;
+}
+
+blockquote cite{
+  font-size: .75em;
+}
+
+blockquote p{
+display: inline-block;
+  color: #fff;
+hanging-punctuation:first;
+  text-indent: -0.5em;
+  line-height: 1.1em;
+}
+
+#dark{width: 100%;
+padding-top: 2em;
+padding-bottom: 2em;
+background-image:url(../img/stardust.png);
+}
+.white{color: #fff;}
+
+/*-------tablet---*/
+@media (max-width:1024px){
+.left{margin-left: 20%;}
+.right{width: 80%;}
+
+
+
+}

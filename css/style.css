@@ -185,12 +185,48 @@ hanging-punctuation:first;
   line-height: 1.1em;
 }
 
+
 #dark{width: 100%;
 padding-top: 2em;
 padding-bottom: 2em;
 background-image:url(../img/stardust.png);
 }
 .white{color: #fff;}
+
+
+.bib{ height: auto;
+  margin: auto;
+  margin-top: 2em;
+width: 82%;}
+
+.bib p{font-size: 1em;
+line-height: 1.6em;
+color: white;
+}
+
+
+footer{background-color: #333;
+padding-top: 1em;
+padding-bottom: 1em;
+}
+
+/*-------tablet---*/
+@media (max-width:1024px){
+
+.left{margin-left: 20%;}
+.right{width: 80%;
+  margin-left:10%;
+font-size: 1.5em;}
+
+.intro{height:35%;}
+
+.intro h1,p{margin-bottom: 1em;}
+
+blockquote p{font-size: 1.7em;}
+
+
+}
+
 
 /*-------tablet---*/
 @media (max-width:1024px){
